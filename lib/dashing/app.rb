@@ -26,7 +26,7 @@ end
 
 set :root, Dir.pwd
 set :sprockets,     Sprockets::Environment.new(settings.root)
-set :assets_prefix, '/assets'
+set :assets_prefix, '/asshats'
 set :digest_assets, false
 set server: 'thin', connections: [], history_file: 'history.yml'
 set :public_folder, File.join(settings.root, 'public')
