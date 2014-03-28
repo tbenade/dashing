@@ -41,7 +41,7 @@ else
 end
 
 %w(javascripts stylesheets fonts images).each do |path|
-  settings.sprockets.append_path("assets/#{path}")
+  settings.sprockets.append_path("asshats/#{path}")
 end
 
 ['widgets', File.expand_path('../../../javascripts', __FILE__)]. each do |path|
